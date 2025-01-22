@@ -1,0 +1,19 @@
+.botao {
+  background-color: #44b1ff;
+  font-weight: 600;
+  padding: 12px;
+  text-align: center;
+
+  color: #1e1e1e;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.botao:active {
+  background-color: #6ec2fd;
+  border-radius: 50px;
+  transform: scale(0.9);
+  transition: 200ms;
+}
