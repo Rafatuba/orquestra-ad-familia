@@ -3,5 +3,18 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #afafaf;
+  padding: 20px;
+
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
 }
