@@ -17,4 +17,10 @@
     border-radius: 10px;
     margin-bottom: 20px;
   }
+
+  .inicio {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+  }
 }

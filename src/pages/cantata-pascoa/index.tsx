@@ -13,6 +13,10 @@ export default function CantataPascoa() {
       <Botao nome="Baixar Partitura" link="/" />
 
       <Streaming />
+
+      <div className="inicio">
+        <Botao nome="Voltar" link="/" />
+      </div>
     </div>
   );
 }
