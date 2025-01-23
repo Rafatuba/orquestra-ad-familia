@@ -11,6 +11,10 @@ const router = createBrowserRouter([
     path: "/cantatapascoa",
     element: <CantataPascoa />,
   },
+  {
+    path: "*",
+    element: <h2>Página não encontrada.</h2>,
+  },
 ]);
 
 export default function App() {

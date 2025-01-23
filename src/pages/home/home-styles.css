@@ -1,7 +1,55 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 10px;
   padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin: 20px;
+
+  a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+
+/* From Uiverse.io by JaydipPrajapati1910 */
+.card {
+  color: #fff;
+  width: 350px;
+  max-width: 300px;
+  height: 300px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background: no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  background-clip: padding-box;
+  text-shadow: 2px 2px 2px black;
+}
+
+.cantata-card {
+  background-image: url(../../assets/capa-cantata.jpg);
+}
+
+.orquestra-card {
+  background-image: url(../../assets/orquestra.jpg);
 }
