@@ -4,7 +4,7 @@ import { IconArrowLeft } from "@tabler/icons-react";
 
 export default function Orquestra() {
   return (
-    <div>
+    <div className="orquestra-principal">
       <div className="inicio">
         <Botao nome="Voltar" link="/" icone={<IconArrowLeft />} />
       </div>

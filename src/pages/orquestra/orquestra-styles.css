@@ -1,3 +1,7 @@
+.orquestra-principal {
+  padding: 10px;
+}
+
 h2 {
   text-align: center;
   margin: 20px 0;
@@ -26,7 +30,6 @@ h2 {
 
 .inicio {
   display: flex;
-  margin-top: 20px;
 }
 
 @media (min-width: 768px) {
