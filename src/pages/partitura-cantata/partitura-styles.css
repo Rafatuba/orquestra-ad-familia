@@ -1,5 +1,15 @@
 .partitura-container {
-  margin: 40px 0;
+  margin: 20px 0;
+
+  .inicio {
+    display: flex;
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+
+  h2 {
+    margin: 20px 0 30px 0;
+  }
 
   .partitura-naipes {
     display: flex;

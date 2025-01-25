@@ -1,6 +1,6 @@
 h2 {
   text-align: center;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .orquestra-container {
@@ -25,9 +25,8 @@ h2 {
 }
 
 .inicio {
-  position: absolute;
-  top: 120px;
-  left: 20px;
+  display: flex;
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {

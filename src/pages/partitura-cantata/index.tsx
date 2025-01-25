@@ -1,9 +1,14 @@
 import Botao from "../../components/botao";
 import "./partitura-styles.css";
+import { IconArrowLeft } from "@tabler/icons-react";
 
 export default function PartituraCantata() {
   return (
     <div className="partitura-container">
+      <div className="inicio">
+        <Botao nome="Voltar" link="/cantatapascoa" icone={<IconArrowLeft />} />
+      </div>
+
       <h2>Faça o download de sua partitura</h2>
       <div className="partitura-naipes">
         <Botao nome="Flautas" link="/" />
@@ -14,9 +19,6 @@ export default function PartituraCantata() {
         <Botao nome="Trombones" link="/" />
         <Botao nome="Tubas" link="/" />
         <Botao nome="Base" link="/" />
-      </div>
-      <div className="inicio">
-        <Botao nome="Voltar" link="/cantatapascoa" />
       </div>
     </div>
   );

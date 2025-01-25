@@ -1,9 +1,13 @@
 import Botao from "../../components/botao";
 import "./orquestra-styles.css";
+import { IconArrowLeft } from "@tabler/icons-react";
 
 export default function Orquestra() {
   return (
     <div>
+      <div className="inicio">
+        <Botao nome="Voltar" link="/" icone={<IconArrowLeft />} />
+      </div>
       <h2>Componentes</h2>
       <div className="orquestra-container">
         <div className="naipes">
@@ -114,10 +118,6 @@ export default function Orquestra() {
             <li>Siqueira</li>
           </ul>
         </div>
-      </div>
-
-      <div className="inicio">
-        <Botao nome="Voltar" link="/" />
       </div>
     </div>
   );

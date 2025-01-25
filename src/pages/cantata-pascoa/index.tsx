@@ -2,21 +2,26 @@ import "./cantata-styles.css";
 import Botao from "../../components/botao";
 import Streaming from "../../components/streamings";
 import CantataImg from "../../assets/capa-cantata.jpg";
+import { IconDownload, IconArrowLeft } from "@tabler/icons-react";
 
 export default function CantataPascoa() {
   return (
     <div className="cantata-container">
-      <h1>Cantata de Páscoa 2025</h1>
+      <div className="inicio">
+        <Botao nome="Voltar" link="/" icone={<IconArrowLeft />} />
+      </div>
+
+      <h2>Cantata de Páscoa 2025</h2>
 
       <img src={CantataImg} alt="" />
 
-      <Botao nome="Baixar Partitura" link="/download-partitura-cantata" />
+      <Botao
+        nome="Baixar Partitura"
+        link="/download-partitura-cantata"
+        icone={<IconDownload />}
+      />
 
       <Streaming />
-
-      <div className="inicio">
-        <Botao nome="Voltar" link="/" />
-      </div>
     </div>
   );
 }
