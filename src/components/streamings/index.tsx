@@ -2,6 +2,7 @@ import "./streaming-styles.css";
 import YoutubeLogo from "../../assets/youtube.png";
 import SpotifyLogo from "../../assets/spotify.png";
 import DeezerLogo from "../../assets/deezer.png";
+import Drive from "../../assets/drive.png";
 
 export default function Streaming() {
   return (
@@ -22,6 +23,12 @@ export default function Streaming() {
         </a>
         <a href="https://deezer.page.link/kTxeW7EKfG6Kr8T99" target="_blank">
           <img src={DeezerLogo} alt="Deezer" />
+        </a>
+        <a
+          href="https://drive.google.com/drive/folders/1k3XIBilNsAx9vJ-4mbqt_3HMy5ETmVPd?usp=sharing"
+          target="_blank"
+        >
+          <img src={Drive} alt="Drive" />
         </a>
       </div>
     </div>
