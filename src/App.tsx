@@ -1,6 +1,7 @@
 import CantataPascoa from "./pages/cantata-pascoa";
 import Home from "./pages/home";
 import { createBrowserRouter, RouterProvider } from "react-router";
+import Orquestra from "./pages/orquestra";
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
   {
     path: "/cantatapascoa",
     element: <CantataPascoa />,
+  },
+  {
+    path: "/orquestra",
+    element: <Orquestra />,
   },
   {
     path: "*",

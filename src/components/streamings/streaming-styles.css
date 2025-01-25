@@ -22,3 +22,14 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .streaming-container {
+    .streaming-links {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 10px;
+    }
+  }
+}
