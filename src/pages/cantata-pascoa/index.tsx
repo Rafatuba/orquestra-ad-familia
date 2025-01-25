@@ -10,7 +10,7 @@ export default function CantataPascoa() {
 
       <img src={CantataImg} alt="" />
 
-      <Botao nome="Baixar Partitura" link="/" />
+      <Botao nome="Baixar Partitura" link="/download-partitura-cantata" />
 
       <Streaming />
 

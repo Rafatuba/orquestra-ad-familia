@@ -2,6 +2,7 @@ import CantataPascoa from "./pages/cantata-pascoa";
 import Home from "./pages/home";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Orquestra from "./pages/orquestra";
+import PartituraCantata from "./pages/partitura-cantata";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/orquestra",
     element: <Orquestra />,
+  },
+  {
+    path: "/download-partitura-cantata",
+    element: <PartituraCantata />,
   },
   {
     path: "*",

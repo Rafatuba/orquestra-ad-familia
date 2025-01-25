@@ -4,7 +4,7 @@ import "./orquestra-styles.css";
 export default function Orquestra() {
   return (
     <div>
-      <h2>Orquestra AD Família</h2>
+      <h2>Componentes</h2>
       <div className="orquestra-container">
         <div className="naipes">
           <h3>Flautas</h3>
