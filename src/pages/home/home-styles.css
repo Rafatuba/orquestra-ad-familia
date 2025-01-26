@@ -50,7 +50,11 @@
 }
 
 .orquestra-card {
-  background-image: url(../../assets/orquestra.jpg);
+  background-image: url(../../assets/orquestra-sinfonica.jpg);
+}
+
+.videos-card {
+  background-image: url(../../assets/orquestra-videos.jpg);
 }
 
 @media screen and (min-width: 768px) {

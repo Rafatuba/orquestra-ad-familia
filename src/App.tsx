@@ -1,8 +1,9 @@
 import CantataPascoa from "./pages/cantata-pascoa";
 import Home from "./pages/home";
-import { createBrowserRouter, RouterProvider } from "react-router";
 import Orquestra from "./pages/orquestra";
 import PartituraCantata from "./pages/partitura-cantata";
+import Videos from "./pages/videos";
+import { createBrowserRouter, RouterProvider } from "react-router";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/download-partitura-cantata",
     element: <PartituraCantata />,
+  },
+  {
+    path: "/videos",
+    element: <Videos />,
   },
   {
     path: "*",

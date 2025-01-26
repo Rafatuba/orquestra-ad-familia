@@ -11,6 +11,9 @@ export default function Home() {
         <NavLink to={"/orquestra"}>
           <div className="card orquestra-card">A Orquestra</div>
         </NavLink>
+        <NavLink to={"/videos"}>
+          <div className="card videos-card">Vídeos</div>
+        </NavLink>
       </div>
     </div>
   );
