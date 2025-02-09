@@ -33,3 +33,10 @@
   transform: scale(0.9);
   transition: 200ms;
 }
+
+@media (prefers-color-scheme: dark) {
+  .botao {
+    color: #2f4858;
+    background-color: #f2efe9;
+  }
+}

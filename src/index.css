@@ -11,4 +11,19 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  h1 {
+    color: #2f4858;
+  }
+}
+
+/* Modo escuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f2efe9; /* Cor do texto no modo escuro */
+    background-color: #2f4858; /* Cor de fundo no modo escuro */
+    h1 {
+      color: #f2efe9;
+    }
+  }
 }
