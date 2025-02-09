@@ -13,22 +13,22 @@ export default function Orquestra() {
         <div className="naipes">
           <h3>Flautas</h3>
           <ul>
-            <li>Evelin</li>
-            <li>Jéssica</li>
-            <li>Cristine</li>
-            <li>Nataly</li>
+            <li>Evelin Meireles</li>
+            <li>Jéssica Renata</li>
+            <li>Claudia Christine</li>
+            <li>Nataly Porfírio</li>
           </ul>
         </div>
 
         <div className="naipes">
           <h3>Clarinetes</h3>
           <ul>
+            <li>Gerson Duarte</li>
             <li>Itamar Emerson</li>
-            <li>Josiane Lopes</li>
-            <li>Dyenyffer</li>
-            <li>Ivonéia</li>
+            <li>Dyenyffer Stéffany</li>
+            <li>Ivonéia Maciel</li>
             <li>João Batista</li>
-            <li>Larissa</li>
+            <li>Larissa Silva</li>
           </ul>
         </div>
 
@@ -36,28 +36,26 @@ export default function Orquestra() {
           <h3>Saxofones</h3>
           <ul>
             <li>Carlos Robert</li>
-            <li>Linhares</li>
+            <li>Joel Linhares</li>
             <li>Ana Luiza</li>
-            <li>Cintia</li>
-            <li>Maykon</li>
-            <li>Joelmir</li>
-            <li>Giovani</li>
-            <li>Analice</li>
-            <li>Jesiel Lopes</li>
+            <li>Maykm Bruno</li>
+            <li>Giovani Amancio</li>
+            <li>Analice de Souza</li>
           </ul>
         </div>
 
         <div className="naipes">
           <h3>Violinos</h3>
           <ul>
-            <li>Clara</li>
+            <li>Eliel Vila Nova</li>
           </ul>
         </div>
 
         <div className="naipes">
           <h3>Violoncelo</h3>
           <ul>
-            <li>Oséias</li>
+            <li>Oséias Guedes</li>
+            <li>Harry Stevan</li>
           </ul>
         </div>
 
@@ -67,13 +65,10 @@ export default function Orquestra() {
             <li>Ágabo Áquila</li>
             <li>Valdir Vieira</li>
             <li>Luís Duarte</li>
-            <li>Siqueira</li>
-            <li>Ademir</li>
-            <li>Gean</li>
-            <li>Júlio</li>
-            <li>Fernando</li>
-            <li>João</li>
-            <li>Neyse</li>
+            <li>Cícero Siqueira</li>
+            <li>Júlio Bevacqua</li>
+            <li>João Vitor</li>
+            <li>Neisy Teixeira </li>
           </ul>
         </div>
 
@@ -83,10 +78,17 @@ export default function Orquestra() {
             <li>Orlando</li>
             <li>Rafael Silva</li>
             <li>Josias</li>
-            <li>Daniel</li>
-            <li>Mário</li>
-            <li>Bruna</li>
-            <li>Emerson</li>
+            <li>Daniel Siqueira</li>
+            <li>Mário Filho</li>
+            <li>Bruna Meireles</li>
+            <li>Emerson Souza</li>
+          </ul>
+        </div>
+
+        <div className="naipes">
+          <h3>Bombardinos</h3>
+          <ul>
+            <li>Gildemar Dantas</li>
           </ul>
         </div>
 
@@ -102,10 +104,10 @@ export default function Orquestra() {
           <h3>Base</h3>
           <ul>
             <li>João Duarte</li>
-            <li>Marcos</li>
-            <li>Juliano</li>
-            <li>Ismael</li>
-            <li>Jr. Medina</li>
+            <li>Marcos Aurélio</li>
+            <li>Juliano Soares</li>
+            <li>Ismael Rondina</li>
+            <li>Júnior Medina</li>
           </ul>
         </div>
 
