@@ -117,7 +117,7 @@ export default function Orquestra() {
             <li>Gerson Duarte</li>
             <li>Rafael Silva</li>
             <li>Valdir Vieira</li>
-            <li>Siqueira</li>
+            <li>Cícero Siqueira</li>
           </ul>
         </div>
       </div>
