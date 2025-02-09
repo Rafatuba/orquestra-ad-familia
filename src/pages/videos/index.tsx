@@ -9,7 +9,19 @@ export default function Videos() {
         <Botao nome="Voltar" link="/" icone={<IconArrowLeft />} />
       </div>
       <div className="videos">
-        <h2>Em breve teremos os vídeos. Aguarde!</h2>
+        <div>
+          <h3>Cantata de Natal 2024</h3>
+          <iframe
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/fGU-kziaPMs?si=qhqZ0ciudZjGkmSw"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
