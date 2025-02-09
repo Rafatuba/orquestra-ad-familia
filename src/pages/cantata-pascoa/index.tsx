@@ -13,7 +13,13 @@ export default function CantataPascoa() {
 
       <h2>Cantata de Páscoa 2025</h2>
 
-      <img src={CantataImg} alt="" />
+      <img
+        src={CantataImg}
+        alt=""
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      />
 
       <Botao
         nome="Baixar Partitura"
