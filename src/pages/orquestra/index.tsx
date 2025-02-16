@@ -27,6 +27,7 @@ export default function Orquestra() {
             <li>Itamar Emerson</li>
             <li>Dyenyffer Stéffany</li>
             <li>Ivonéia Maciel</li>
+            <li>Larissa Santana</li>
             <li>João Batista</li>
             <li>Larissa Silva</li>
           </ul>
@@ -39,6 +40,7 @@ export default function Orquestra() {
             <li>Joel Linhares</li>
             <li>Ana Luiza</li>
             <li>Maykm Bruno</li>
+            <li>Cinthya Barbosa</li>
             <li>Giovani Amancio</li>
             <li>Analice de Souza</li>
           </ul>
@@ -48,6 +50,7 @@ export default function Orquestra() {
           <h3>Violinos</h3>
           <ul>
             <li>Eliel Vila Nova</li>
+            <li>Clara Costa</li>
           </ul>
         </div>
 
@@ -67,6 +70,8 @@ export default function Orquestra() {
             <li>Luís Duarte</li>
             <li>Cícero Siqueira</li>
             <li>Júlio Bevacqua</li>
+            <li>Jean Fernandes</li>
+            <li>Fernando Carlos</li>
             <li>João Vitor</li>
             <li>Neisy Teixeira </li>
           </ul>
@@ -96,7 +101,7 @@ export default function Orquestra() {
           <h3>Tubas</h3>
           <ul>
             <li>Daniel Maciel</li>
-            <li>Wender</li>
+            <li>Wender de Lima</li>
           </ul>
         </div>
 
