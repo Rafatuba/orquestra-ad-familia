@@ -1,6 +1,7 @@
 import { IconArrowLeft } from "@tabler/icons-react";
 import Botao from "../../components/botao";
 import "./videos-styles.css";
+import ScrollToTop from "../../components/scrollToTop";
 
 export default function Videos() {
   return (
@@ -23,6 +24,7 @@ export default function Videos() {
           ></iframe>
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
 }

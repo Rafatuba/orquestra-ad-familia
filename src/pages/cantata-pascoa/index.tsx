@@ -3,6 +3,7 @@ import Botao from "../../components/botao";
 import Streaming from "../../components/streamings";
 import CantataImg from "../../assets/capa-cantata.jpg";
 import { IconDownload, IconArrowLeft } from "@tabler/icons-react";
+import ScrollToTop from "../../components/scrollToTop";
 
 export default function CantataPascoa() {
   return (
@@ -28,6 +29,7 @@ export default function CantataPascoa() {
       />
 
       <Streaming />
+      <ScrollToTop />
     </div>
   );
 }

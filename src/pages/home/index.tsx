@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import "./home-styles.css";
+import ScrollToTop from "../../components/scrollToTop";
 
 export default function Home() {
   return (
@@ -23,12 +24,13 @@ export default function Home() {
           <div
             className="card videos-card"
             data-aos="flip-down"
-            data-aos-delay="600"
+            data-aos-delay="400"
           >
             Vídeos
           </div>
         </NavLink>
       </div>
+      <ScrollToTop />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import Botao from "../../components/botao";
+import ScrollToTop from "../../components/scrollToTop";
 import "./orquestra-styles.css";
 import { IconArrowLeft } from "@tabler/icons-react";
 
@@ -127,6 +128,7 @@ export default function Orquestra() {
           </ul>
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
 }

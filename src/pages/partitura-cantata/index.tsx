@@ -1,4 +1,5 @@
 import Botao from "../../components/botao";
+import ScrollToTop from "../../components/scrollToTop";
 import "./partitura-styles.css";
 import { IconArrowLeft } from "@tabler/icons-react";
 
@@ -52,6 +53,7 @@ export default function PartituraCantata() {
           _blank
         />
       </div>
+      <ScrollToTop />
     </div>
   );
 }
