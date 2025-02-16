@@ -42,6 +42,7 @@ export default function Orquestra() {
             <li>Maykm Bruno</li>
             <li>Cinthya Barbosa</li>
             <li>Giovani Amancio</li>
+            <li>Joelmir de Carvalho</li>
             <li>Analice de Souza</li>
           </ul>
         </div>
