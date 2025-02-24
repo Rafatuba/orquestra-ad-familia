@@ -53,6 +53,10 @@
   background-image: url(../../assets/orquestra-sinfonica.jpg);
 }
 
+.agenda-card {
+  background-image: url(../../assets/calendar.jpg);
+}
+
 .videos-card {
   background-image: url(../../assets/orquestra-videos.jpg);
 }

@@ -20,6 +20,11 @@ export default function Home() {
             A Orquestra
           </div>
         </NavLink>
+        <NavLink to={"/agenda"}>
+          <div className="card agenda-card" data-aos="flip-up">
+            Agenda
+          </div>
+        </NavLink>
         <NavLink to={"/videos"}>
           <div
             className="card videos-card"

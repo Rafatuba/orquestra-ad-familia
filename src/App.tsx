@@ -1,3 +1,4 @@
+import Agenda from "./pages/agenda";
 import CantataPascoa from "./pages/cantata-pascoa";
 import Home from "./pages/home";
 import Orquestra from "./pages/orquestra";
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/videos",
     element: <Videos />,
+  },
+  {
+    path: "/agenda",
+    element: <Agenda />,
   },
   {
     path: "*",

@@ -1,0 +1,25 @@
+.agenda-container {
+  padding: 10px;
+}
+
+.inicio {
+  display: flex;
+}
+
+.lista-agenda {
+  ul {
+    li {
+      margin-bottom: 2rem;
+      font-size: 20px;
+    }
+  }
+}
+
+.evento {
+  font-weight: 500;
+}
+
+.observacoes {
+  margin: 40px 0 20px 0;
+  font-size: 18px;
+}
