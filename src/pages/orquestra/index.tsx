@@ -76,7 +76,8 @@ export default function Orquestra() {
             <li>Jean Fernandes</li>
             <li>Fernando Carlos</li>
             <li>João Vitor</li>
-            <li>Neisy Teixeira </li>
+            <li>Neisy Teixeira</li>
+            <li>Ademir</li>
           </ul>
         </div>
 
@@ -84,9 +85,9 @@ export default function Orquestra() {
           <h3>Trombones</h3>
           <ul>
             <li>Orlando</li>
-            <li>Rafael Silva</li>
-            <li>Josias</li>
             <li>Daniel Siqueira</li>
+            <li>Josias</li>
+            <li>Rafael Silva</li>
             <li>Mário Filho</li>
             <li>Bruna Meireles</li>
             <li>Emerson Souza</li>
