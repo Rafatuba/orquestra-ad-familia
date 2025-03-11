@@ -53,6 +53,7 @@ export default function Orquestra() {
           <ul>
             <li>Eliel Vila Nova</li>
             <li>Clara Costa</li>
+            <li>Edilene Rodrigues</li>
           </ul>
         </div>
 
