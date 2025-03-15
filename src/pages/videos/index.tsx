@@ -23,6 +23,19 @@ export default function Videos() {
             allowFullScreen
           ></iframe>
         </div>
+        <div>
+          <h3>Cantata de Natal 2023</h3>
+          <iframe
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/RI-UpIAq5MM?si=rk7VqGHOYqYsikH6"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
       <ScrollToTop />
     </div>
