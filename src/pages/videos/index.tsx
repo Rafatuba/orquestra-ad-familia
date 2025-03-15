@@ -10,7 +10,7 @@ export default function Videos() {
         <Botao nome="Voltar" link="/" icone={<IconArrowLeft />} />
       </div>
       <div className="videos">
-        <div>
+        <div className="video">
           <h3>Cantata de Natal 2024</h3>
           <iframe
             width="100%"
@@ -23,7 +23,7 @@ export default function Videos() {
             allowFullScreen
           ></iframe>
         </div>
-        <div>
+        <div className="video">
           <h3>Cantata de Natal 2023</h3>
           <iframe
             width="100%"

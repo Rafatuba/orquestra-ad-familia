@@ -7,6 +7,17 @@
     flex-direction: column;
     gap: 30px;
     margin: 0 0 20px 0;
+
+    .video {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      /* h3 {
+        align-self: flex-start;
+      } */
+    }
   }
 }
 
