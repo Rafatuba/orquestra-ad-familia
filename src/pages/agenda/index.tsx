@@ -14,7 +14,9 @@ export default function Agenda() {
         <ul>
           <li>
             <p>27 a 30/março</p>
-            <p className="evento">Conferência Compartilhe e Multiplique*</p>
+            <p className="evento marcado">
+              Conferência Compartilhe e Multiplique*
+            </p>
           </li>
           <li>
             <p>20/abril</p>

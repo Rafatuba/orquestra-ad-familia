@@ -19,6 +19,11 @@
   font-weight: 500;
 }
 
+.marcado {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
 .observacoes {
   margin: 40px 0 20px 0;
   font-size: 18px;

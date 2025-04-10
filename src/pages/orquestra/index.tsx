@@ -73,11 +73,11 @@ export default function Orquestra() {
             <li>Luís Duarte</li>
             <li>Cícero Siqueira</li>
             <li>Júlio Bevacqua</li>
+            <li>Ademir de Souza</li>
             <li>Jean Fernandes</li>
             <li>Fernando Carlos</li>
             <li>João Vitor</li>
             <li>Neisy Teixeira</li>
-            <li>Ademir</li>
           </ul>
         </div>
 
