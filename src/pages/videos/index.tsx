@@ -11,6 +11,19 @@ export default function Videos() {
       </div>
       <div className="videos">
         <div className="video">
+          <h3>Cantata de Páscoa 2025</h3>
+          <iframe
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/dpjPzj93JwQ?si=Dv9te07g4rCJ8x_d"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="video">
           <h3>Cantata de Natal 2024</h3>
           <iframe
             width="100%"
