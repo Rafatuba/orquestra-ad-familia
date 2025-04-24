@@ -1,5 +1,5 @@
 import Agenda from "./pages/agenda";
-import CantataPascoa from "./pages/cantata-pascoa";
+import CantataNatal from "./pages/cantata-natal";
 import Home from "./pages/home";
 import Orquestra from "./pages/orquestra";
 import PartituraCantata from "./pages/partitura-cantata";
@@ -12,8 +12,8 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/cantatapascoa",
-    element: <CantataPascoa />,
+    path: "/cantatanatal",
+    element: <CantataNatal />,
   },
   {
     path: "/orquestra",

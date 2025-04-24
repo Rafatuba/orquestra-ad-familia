@@ -6,11 +6,6 @@ export default function Home() {
   return (
     <div className="home-container">
       <div className="cards">
-        <NavLink to={"/cantatapascoa"}>
-          <div className="card cantata-card" data-aos="flip-left">
-            Cantata de Páscoa
-          </div>
-        </NavLink>
         <NavLink to={"/orquestra"}>
           <div
             className="card orquestra-card"
@@ -32,6 +27,11 @@ export default function Home() {
             data-aos-delay="400"
           >
             Vídeos
+          </div>
+        </NavLink>
+        <NavLink to={"/cantatanatal"}>
+          <div className="card cantata-card" data-aos="flip-left">
+            Cantata de Natal 2025
           </div>
         </NavLink>
       </div>
