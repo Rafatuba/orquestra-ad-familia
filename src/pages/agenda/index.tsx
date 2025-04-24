@@ -20,7 +20,7 @@ export default function Agenda() {
           </li>
           <li>
             <p>20/abril</p>
-            <p className="evento">Especial de Páscoa - Musical</p>
+            <p className="evento marcado">Especial de Páscoa - Musical</p>
           </li>
           <li>
             <p>19 e 20/julho</p>
