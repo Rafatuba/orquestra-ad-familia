@@ -54,6 +54,10 @@
   background-image: url(../../assets/natal.png);
 }
 
+.estudos-card {
+  background-image: url(../../assets/estudo.jpg);
+}
+
 .orquestra-card {
   background-image: url(../../assets/orquestra-sinfonica.jpg);
 }

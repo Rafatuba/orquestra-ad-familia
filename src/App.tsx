@@ -1,6 +1,7 @@
 import Agenda from "./pages/agenda";
 import CantataNatal from "./pages/cantata-natal";
 import Home from "./pages/home";
+import MetodosEstudos from "./pages/metodos-estudos";
 import Orquestra from "./pages/orquestra";
 import PartituraCantata from "./pages/partitura-cantata";
 import Videos from "./pages/videos";
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/agenda",
     element: <Agenda />,
+  },
+  {
+    path: "/metodosestudos",
+    element: <MetodosEstudos />,
   },
   {
     path: "*",

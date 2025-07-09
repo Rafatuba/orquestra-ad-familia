@@ -34,6 +34,11 @@ export default function Home() {
             Cantata de Natal 2025
           </div>
         </NavLink>
+        <NavLink to={"/metodosestudos"}>
+          <div className="card estudos-card" data-aos="flip-left">
+            Métodos e Estudos
+          </div>
+        </NavLink>
       </div>
       <ScrollToTop />
     </div>
